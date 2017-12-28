@@ -80,6 +80,12 @@ let mapColors = ['000066',//deep water
                 'ebebe0',//snow
                 'f5f5f0',//snow
                 'ffffff',//snow
+                'ffffff',//snow
+                'ffffff',//snow
+                'ffffff',//snow
+                'ffffff',//snow
+                'ffffff',//snow
+                'ffffff',//snow
                 'ffffff'];//more snow
 
 
