@@ -13,7 +13,7 @@ var map = /** @class */ (function () {
                         var min_1 = grid[i - 1][j];
                         var max_1 = grid[i][j - 1];
                     }
-                    grid[i][j] = gaussianRandom(min - 1, max + 1);
+                        grid[i][j] = gaussianRandom(min - 1, max + 1);
                 }
                 else if (i != 0) {
                     grid[i][j] = gaussianRandom(grid[i - 1][j] - 1, grid[i - 1][j] + 1);
@@ -70,6 +70,13 @@ var mapColors = ['000066',
     'e0e0d1',
     'ebebe0',
     'f5f5f0',
+    'ffffff',
+    'ffffff',
+    'ffffff',
+    'ffffff',
+    'ffffff',
+    'ffffff',
+    'ffffff',
     'ffffff',
     'ffffff']; //more snow
 var gameMap = new map(250, 250);
