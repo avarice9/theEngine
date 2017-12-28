@@ -13,13 +13,7 @@ var map = /** @class */ (function () {
                         var min_1 = grid[i - 1][j];
                         var max_1 = grid[i][j - 1];
                     }
-                    //alternate rows so that there are not diagonal stripes
-                    if (i % 2 == 1) {
-                        grid[this.width - i][j] = gaussianRandom(min - 1, max + 1);
-                    }
-                    else {
-                        grid[i][j] = gaussianRandom(min - 1, max + 1);
-                    }
+                    grid[i][j] = gaussianRandom(min - 1, max + 1);
                 }
                 else if (i != 0) {
                     grid[i][j] = gaussianRandom(grid[i - 1][j] - 1, grid[i - 1][j] + 1);
