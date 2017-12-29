@@ -72,29 +72,29 @@ function gaussianRand() {
 }
 
 //hex values to be used for the map display
-let mapColors = ['#000066',//deep water
-                '#0000cc',//deep water
-                '#0000cc',//deep water
-                '#0000ff',//water
-                '#ffff66',//sand
-                '#00ff00',//grass
-                '#00cc00',//brush
-                '#009933',//forest
-                '#666633',//rock
-                '#333300',//stone
-                '#e0e0d1',//snow
-                '#ebebe0',//snow
-                '#f5f5f0',//snow
-                '#ffffff',//snow
-                '#ffffff',//snow
-                '#ffffff',//snow
-                '#ffffff',//snow
-                '#ffffff',//snow
-                '#ffffff',//snow
-                '#ffffff',//snow
-                '#ffffff'];//more snow
+let mapColors = ['#000066',//0 deep water
+                '#0000cc',// 1 deep water
+                '#0000cc',// 2 deep water
+                '#0000ff',// 3 water
+                '#ffff66',// 4 sand
+                '#00ff00',// 5 grass
+                '#00cc00',// 6 brush
+                '#009933',// 7 forest
+                '#666633',// 8 rock
+                '#333300',// 9 stone
+                '#e0e0d1',// 10 dirty snow
+                '#ebebe0',// 11 yellow snow
+                '#f5f5f0',// 12 grey snow
+                '#ffffff',// 13 snow
+                '#ffffff',// 14 snow
+                '#ffffff',// 15 snow
+                '#ffffff',// 16 snow
+                '#ffffff',// 17 snow
+                '#ffffff',// 18 snow
+                '#ffffff',// 19 snow
+                '#ffffff'];//20 more snow, at larger map sizes the mountains get really high
 
 
-//run the prototype
+//run the prototype - temp home
 let gameMap = new map(250,250);
 document.body.innerHTML = gameMap.display();

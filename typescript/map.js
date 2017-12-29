@@ -83,7 +83,7 @@ var mapColors = ['#000066',
     '#ffffff',
     '#ffffff',
     '#ffffff',
-    '#ffffff']; //more snow
-//run the prototype
+    '#ffffff']; //20 more snow, at larger map sizes the mountains get really high
+//run the prototype - temp home
 var gameMap = new map(250, 250);
 document.body.innerHTML = gameMap.display();

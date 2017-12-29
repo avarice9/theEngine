@@ -20,10 +20,10 @@
       <file leaf-file-name="map.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/typescript/map.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="1065">
+              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
               <folding>
-                <marker date="1514508560923" expanded="true" signature="1653:1679" ph="..." />
+                <marker date="1514509032815" expanded="true" signature="1653:1679" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514418859267</updated>
-      <workItem from="1514418860363" duration="2197000" />
+      <workItem from="1514418860363" duration="2733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2197000" />
+    <option name="totallyTimeSpent" value="2733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
@@ -194,10 +194,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/typescript/map.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="1065">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
           <folding>
-            <marker date="1514508560923" expanded="true" signature="1653:1679" ph="..." />
+            <marker date="1514509032815" expanded="true" signature="1653:1679" ph="..." />
           </folding>
         </state>
       </provider>
